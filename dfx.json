@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "dfx": "0.7.2",
+  "canisters": {
+    "xtc-bet": {
+      "build": "node build.js",
+      "candid": "candid/xtc-bet.did",
+      "wasm": "target/wasm32-unknown-unknown/release/xtc_bet-opt.wasm",
+      "type": "custom"
+    }
+  },
+  "defaults": {
+    "build": {
+      "packtool": ""
+    }
+  },
+  "networks": {
+    "local": {
+      "bind": "127.0.0.1:8000",
+      "type": "ephemeral"
+    }
+  }
+}

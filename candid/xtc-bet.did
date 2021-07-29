@@ -1,0 +1,6 @@
+service : {
+    // Main
+    balance : () -> (nat64);        // Return the balance of the user.
+    bet : (number: nat8) -> ();     // Bet against a number.
+    withdraw : () -> ();            // Withdraw from a user.
+}

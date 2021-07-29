@@ -1,0 +1,16 @@
+[package]
+name = "xtc-bet"
+version = "0.1.0"
+authors = ["Parsa Ghadimi <qti3eqti3e@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+ic-cdk = "0.3.0"
+ic-cdk-macros = "0.3.0"
+serde = { version="1.0.116", features = ["derive"] }
+serde_bytes = "0.11"
+sha2 = "0.9.5"
+
+[lib]
+crate-type = ["cdylib"]
+path = "src/lib.rs"
